@@ -1,1 +1,1 @@
-# discovery-piscine-fun-with-coding-surayuth-chaichompu
+# discovery-piscine-fun-with-coding-schaicho
