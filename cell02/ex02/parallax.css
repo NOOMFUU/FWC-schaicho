@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.parallax {
+    height: 100%;
+    
+    background-attachment: fixed;
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-one {
+    background-image: url("https://images6.alphacoders.com/129/1297089.png"); 
+}
+
+.image-two {
+    background-image: url("https://template.canva.com/EAFhwfMq3ds/1/0/1600w-KBBZLdpjLcM.jpg");
+}
+
+.text-box {
+    color: white;
+    padding: 20px 40px;
+    font-size: 24px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.black-block {
+    height: 400px; 
+    background-color: #000000;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
