@@ -223,4 +223,8 @@ section {
   .profile-img {
     max-width: 320px;
   }
+
+  .nav-brand {
+    display: none;
+  }
 }
