@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
 </head>
 <body>
-    
+    <div class="calculator">
+        <input type="text" id="left" placeholder="Left member">
+        
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        
+        <input type="text" id="right" placeholder="Right member">
+        
+        <input type="submit" value="Try me!" id="submit-btn" onclick="calculate()">
+    </div>
+
+    <script src="calc.js"></script>
 </body>
 </html>
